@@ -3,9 +3,15 @@ const todoInput = document.querySelector('#todoInput');
 const taskList = document.querySelector('#taskList');
 
 addTask.addEventListener('click', () => {
-  const newList = document.createElement('li');
+  const li = document.createElement('li');
   const newTask = document.createTextNode(`${todoInput.value}`);
-  newList.appendChild(newTask);
-  taskList.appendChild(newList);
+  li.appendChild(newTask);
+  taskList.appendChild(li);
+
+  li.addEventListener('click', () => {
+    li.classList.toggle('done');
+  })
 
 })
+
+
