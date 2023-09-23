@@ -16,6 +16,7 @@ li {
   font: 500 115% poppins;
   position: relative;
   line-height: 170%;
+  padding-right: 10%;
 }
 li > button {
   font: 700 100% poppins;
