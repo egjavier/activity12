@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+
+body {
+  font-family: poppins;
+}
+h1 {
+  font: 900 250% poppins; 
+}
+input[type=text] {
+  font: 500 100% poppins;
+}
+input:focus {
+  outline-color: green
+}
+li {
+  font: 500 115% poopins;
+  position: relative;
+  line-height: 170%;
+}
+li > button {
+  font: 700 100% poppins;
+  border: none;
+  color: #198754;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+}
+li:hover {
+  cursor: pointer;;
+}
+.done {
+  text-decoration: line-through;
+  text-decoration-color: black;
+  text-decoration-thickness: 10%;
+}
